@@ -13,7 +13,7 @@ url = os.getenv('JOB_URL')
 json_parser = SimpleJsonOutputParser()
 
 def app():
-    st.set_page_config(page_icon=":thunder", page_title="Genemail AI", layout="wide")
+    st.set_page_config(page_icon=":lightning", page_title="Genemail AI", layout="wide")
 
     if "chat_sessions" not in st.session_state:
         st.session_state.chat_sessions = {}
