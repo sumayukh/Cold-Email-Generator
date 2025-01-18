@@ -1,0 +1,18 @@
+# Virtual environments
+venv/
+.env
+.vscode/
+vector_db/
+
+# Cache and logs
+*.log
+*.pickle
+.cache/
+*.sqlite
+__pycache__/
+
+# Model files and datasets
+*.h5
+*.pt
+*.bin
+*.ckpt
